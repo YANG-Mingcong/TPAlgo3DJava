@@ -1,4 +1,4 @@
-package TP3;
+package TP4;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.BufferUtils;
@@ -11,10 +11,12 @@ import java.nio.FloatBuffer;
  * composante diffuse
  *
  * @author (Alexis Heloir)
- * @version (06/02/2018)
+ * @version (06/02/2019)
  */
 public abstract class Lumiere
 {
+    
+    //remplacons ces tableaux de réels par des Vecteur3D
     private float[] m_ambientComponent = {0.0f,0.0f,0.0f,0.0f};
     private float[] m_diffuseComponent = {0.0f,0.0f,0.0f,0.0f};
     private float[] m_specularComponent = {0.0f,0.0f,0.0f,0.0f};

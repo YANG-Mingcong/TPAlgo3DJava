@@ -166,12 +166,8 @@ public class Monde extends Noeud
 
         Transformation aDroite = new Translation(maTranslation, decaleDroite);
         
-        //CubeTexture monCubeTex = new CubeTexture(aGauche);
-        //Cube monCubeLine = new Cube(aDroite);
-        
-        
-        Pyramide aPyramide = new Pyramide(this);
-        
+        CubeTexture monCubeTex = new CubeTexture(aGauche);
+        Cube monCubeLine = new Cube(aDroite);
 
 
     }

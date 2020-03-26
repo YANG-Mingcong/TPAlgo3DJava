@@ -40,22 +40,6 @@ public class Translation extends Transformation
         m_coordonnees = new Vecteur3D(0.0f,0.0f,0.0f);
     }
 
-    public void setX(float _x)
-    {
-        m_coordonnees.setX(_x);
-    }
-
-    public void setY(float _y)
-    {
-        m_coordonnees.setY(_y);
-    }
-    
-    public void setZ(float _z)
-    {
-        m_coordonnees.setZ(_z);
-    }
-    
-    
     /**
      * implémentation de la méthode abstraite transfome() déclarée initialement dans la
      * classe abstraire Transformation. Elle consiste à appeler l'instruction OpenGL 

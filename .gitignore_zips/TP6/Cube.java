@@ -27,9 +27,6 @@ public class Cube extends Objet
      */
     public void dessine(){
 
-        //On change la couleur pour dessiner le cube fil de fer dans la couleur dessinée
-        
-        
         // On désactive le mode d'éclairage pour afficher des lignes
         GL11.glDisable(GL11.GL_LIGHTING);
 
