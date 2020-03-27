@@ -156,21 +156,22 @@ public class Monde extends Noeud
         LumiereDirectionelle maLumiere = new LumiereDirectionelle();
         maLumiere.allumer();
         
-        Vecteur3D monVecteur = new Vecteur3D(0.0f,0.0f,-8.0f);
-        Vecteur3D decaleGauche = new Vecteur3D(-1.5f,0.0f,0.0f);
-        Vecteur3D decaleDroite = new Vecteur3D(1.5f,0.0f,0.0f);
+        //Vecteur3D monVecteur = new Vecteur3D(0.0f,0.0f,-8.0f);
+        //Vecteur3D decaleGauche = new Vecteur3D(-1.5f,0.0f,0.0f);
+        //Vecteur3D decaleDroite = new Vecteur3D(1.5f,0.0f,0.0f);
         
-        Transformation maTranslation = new Translation(this, monVecteur);
+        //Transformation maTranslation = new Translation(this, monVecteur);
 
-        Transformation aGauche = new Translation(maTranslation, decaleGauche);
+        //Transformation aGauche = new Translation(maTranslation, decaleGauche);
 
-        Transformation aDroite = new Translation(maTranslation, decaleDroite);
+        //Transformation aDroite = new Translation(maTranslation, decaleDroite);
         
         //CubeTexture monCubeTex = new CubeTexture(aGauche);
         //Cube monCubeLine = new Cube(aDroite);
+        Vecteur3D vecteur0 = new Vecteur3D(0.0f,-2.0f,-16.0f);
+        Transformation translation0 = new Translation(this, vecteur0);
         
-        
-        Pyramide aPyramide = new Pyramide(this);
+        Pyramide aPyramide = new Pyramide(translation0);
         
 
 
