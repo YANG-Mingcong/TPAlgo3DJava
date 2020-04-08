@@ -1,7 +1,7 @@
 #BlueJ package file
 editor.fx.0.height=877
 editor.fx.0.width=1331
-editor.fx.0.x=161
+editor.fx.0.x=109
 editor.fx.0.y=23
 objectbench.height=118
 objectbench.width=1379
@@ -63,7 +63,7 @@ target7.height=62
 target7.name=TP7
 target7.type=PackageTarget
 target7.width=80
-target7.x=10
+target7.x=460
 target7.y=90
 target8.height=62
 target8.name=TP6

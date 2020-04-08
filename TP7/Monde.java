@@ -215,8 +215,10 @@ public class Monde extends Noeud
         Vecteur3D vecteur11 = new Vecteur3D(0.0f,8.0f,0.0f);
 
         Transformation translation11 = new Translation(translation0, vecteur11);        
-        RotationAnimee rotation11 = new RotationAnimee(translation11, new Vecteur3D(0.0f,1.0f,0.0f), 90.0f, 5000);
-        CubeTextureParFace cube11 = new CubeTextureParFace(rotation11);        
+        RotationAnimee rotation11 = new RotationAnimee(translation11, new Vecteur3D(0.0f,1.0f,0.0f), -360.0f, 1000);
+        RotationAnimee rotation11_2 = new RotationAnimee(rotation11, new Vecteur3D(1.0f,0.0f,0.0f), -90.0f, 3000);
+
+        CubeTextureParFace cube11 = new CubeTextureParFace(rotation11_2);        
     }
     
     private void createWindow() throws Exception {
